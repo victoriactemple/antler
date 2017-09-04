@@ -1,0 +1,52 @@
+
+
+body{
+font-family: "Quicksand", sans-serif; 
+    background-color: white-space;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 0 0 calc(33.33% - 30px);
+    margin: 5px;
+}
+
+header {
+    background-color: white;
+    flex-grow: .5;
+
+}
+
+footer {
+    background-color: white;
+    flex-grow: 1;
+}
+
+
+a nav {
+    font-family: "Josefin Slab"; 
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+a {
+    font-family: "Josefin Slab";
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-bottom: purple;
+}
